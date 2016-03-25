@@ -1,0 +1,262 @@
+<DataCollectorSet>
+  <Status>0</Status>
+  <Duration>0</Duration>
+  <Description/>
+  <DescriptionUnresolved/>
+  <DisplayName/>
+  <DisplayNameUnresolved/>
+  <SchedulesEnabled>-1</SchedulesEnabled>
+  <LatestOutputLocation></LatestOutputLocation>
+  <Name>HPC.HN</Name>
+  <OutputLocation></OutputLocation>
+  <RootPath>C:\HpcPerfRun\PerfLogs\HPC.HN</RootPath>
+  <Segment>0</Segment>
+  <SegmentMaxDuration>0</SegmentMaxDuration>
+  <SegmentMaxSize>0</SegmentMaxSize>
+  <SerialNumber>0</SerialNumber>
+  <Server/>
+  <Subdirectory/>
+  <SubdirectoryFormat>3</SubdirectoryFormat>
+  <SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
+  <Task/>
+  <TaskRunAsSelf>0</TaskRunAsSelf>
+  <TaskArguments/>
+  <TaskUserTextArguments/>
+  <UserAccount>SYSTEM</UserAccount>
+  <Security></Security>
+  <StopOnCompletion>0</StopOnCompletion>
+  <PerformanceCounterDataCollector>
+    <DataCollectorType>0</DataCollectorType>
+    <Name>DataCollector01</Name>
+    <FileName>HPC.HN</FileName>
+    <FileNameFormat>0</FileNameFormat>
+    <FileNameFormatPattern/>
+    <LogAppend>0</LogAppend>
+    <LogCircular>0</LogCircular>
+    <LogOverwrite>0</LogOverwrite>
+    <LatestOutputLocation></LatestOutputLocation>
+    <DataSourceName/>
+    <SampleInterval>5</SampleInterval>
+    <SegmentMaxRecords>0</SegmentMaxRecords>
+    <LogFileFormat>3</LogFileFormat>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcManagement)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcScheduler)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="10000">\.NET CLR Memory(HpcManagement)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="10000">\.NET CLR Memory(HpcScheduler)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcSession)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="10000">\.NET CLR Memory(HpcSession)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcManagement)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="8000">\Process(HpcScheduler)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcManagement)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcScheduler)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcManagement)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcScheduler)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcManagement)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcScheduler)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="50">\Process(HpcManagement)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="80">\Process(HpcScheduler)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcSession)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="50">\Process(HpcSession)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcSession)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcSession)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcSession)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Percent Of Max Concurrent Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Percent Of Max Concurrent Calls</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Cores\Number of busy cores</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Cores\Number of idle cores</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Cores\Number of offline cores</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Cores\Number of online cores</Counter>
+    <Counter MinValue="" MaxValue="0">\HPC Cores\Number of unreachable cores</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Cores\Total number of cores</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Number of canceled jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Number of configuring jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Number of failed jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Number of finished jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Number of queued jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Number of running jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Jobs\Total number of jobs</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Nodes\Number of draining nodes</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Nodes\Number of offline nodes</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Nodes\Number of online nodes</Counter>
+    <Counter MinValue="" MaxValue="0">\HPC Nodes\Number of unreachable nodes</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Nodes\Total number of nodes</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Daily job queue time</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Hourly job queue time</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Scheduler DB deadlock count</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to dispatch a task</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to perform a job scheduling session</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to perform a task scheduling session</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to schedule a job</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to schedule a task</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to validate a job</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Time to validate a task</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Scheduler\Weekly job queue time</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Number of canceled tasks</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Number of configuring tasks</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Number of failed tasks</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Number of finished tasks</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Number of queued tasks</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Number of running tasks</Counter>
+    <Counter MinValue="" MaxValue="">\HPC Tasks\Total number of tasks</Counter>
+    <Counter MinValue="" MaxValue="200">\HTTP Service Request Queues(*)\ArrivalRate</Counter>
+    <Counter MinValue="" MaxValue="">\HTTP Service Request Queues(*)\CacheHitRate</Counter>
+    <Counter MinValue="" MaxValue="800">\HTTP Service Request Queues(*)\CurrentQueueSize</Counter>
+    <Counter MinValue="" MaxValue="">\HTTP Service Request Queues(*)\MaxQueueItemAge</Counter>
+    <Counter MinValue="" MaxValue="0">\HTTP Service Request Queues(*)\RejectedRequests</Counter>
+    <Counter MinValue="" MaxValue="0">\HTTP Service Request Queues(*)\RejectionRate</Counter>
+    <CounterDisplayName>\.NET CLR Memory(HpcManagement)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcScheduler)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcManagement)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcScheduler)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcSession)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcSession)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcScheduler)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcScheduler)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcScheduler)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcScheduler)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcScheduler)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSession)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSession)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSession)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSession)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSession)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SessionLauncher@net.tcp:||localhost:9090|SessionLauncher)\Percent Of Max Concurrent Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Allocate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@57PS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.AllocateDurable@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.GetInfo@NET.TCP:||LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@95LOCALHOST:9090|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Sessi71.ISess92.Terminate@HTTPS:||LOCALHOST|SESSIONLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(SchedulerDelegation@24host:9092|SchedulerDelegation)\Percent Of Max Concurrent Calls</CounterDisplayName>
+    <CounterDisplayName>\HPC Cores\Number of busy cores</CounterDisplayName>
+    <CounterDisplayName>\HPC Cores\Number of idle cores</CounterDisplayName>
+    <CounterDisplayName>\HPC Cores\Number of offline cores</CounterDisplayName>
+    <CounterDisplayName>\HPC Cores\Number of online cores</CounterDisplayName>
+    <CounterDisplayName>\HPC Cores\Number of unreachable cores</CounterDisplayName>
+    <CounterDisplayName>\HPC Cores\Total number of cores</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Number of canceled jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Number of configuring jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Number of failed jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Number of finished jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Number of queued jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Number of running jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Jobs\Total number of jobs</CounterDisplayName>
+    <CounterDisplayName>\HPC Nodes\Number of draining nodes</CounterDisplayName>
+    <CounterDisplayName>\HPC Nodes\Number of offline nodes</CounterDisplayName>
+    <CounterDisplayName>\HPC Nodes\Number of online nodes</CounterDisplayName>
+    <CounterDisplayName>\HPC Nodes\Number of unreachable nodes</CounterDisplayName>
+    <CounterDisplayName>\HPC Nodes\Total number of nodes</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Daily job queue time</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Hourly job queue time</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Scheduler DB deadlock count</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to dispatch a task</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to perform a job scheduling session</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to perform a task scheduling session</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to schedule a job</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to schedule a task</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to validate a job</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Time to validate a task</CounterDisplayName>
+    <CounterDisplayName>\HPC Scheduler\Weekly job queue time</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Number of canceled tasks</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Number of configuring tasks</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Number of failed tasks</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Number of finished tasks</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Number of queued tasks</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Number of running tasks</CounterDisplayName>
+    <CounterDisplayName>\HPC Tasks\Total number of tasks</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\ArrivalRate</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\CacheHitRate</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\CurrentQueueSize</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\MaxQueueItemAge</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\RejectedRequests</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\RejectionRate</CounterDisplayName>
+  </PerformanceCounterDataCollector>
+  <DataManager>
+    <Enabled>0</Enabled>
+    <CheckBeforeRunning>0</CheckBeforeRunning>
+    <MinFreeDisk>0</MinFreeDisk>
+    <MaxSize>0</MaxSize>
+    <MaxFolderCount>0</MaxFolderCount>
+    <ResourcePolicy>0</ResourcePolicy>
+    <ReportFileName>report.html</ReportFileName>
+    <RuleTargetFileName>report.xml</RuleTargetFileName>
+    <EventsFileName/>
+  </DataManager>
+</DataCollectorSet>

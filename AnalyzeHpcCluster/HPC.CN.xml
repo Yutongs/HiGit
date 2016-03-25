@@ -1,0 +1,130 @@
+<DataCollectorSet>
+  <Status>0</Status>
+  <Duration>0</Duration>
+  <Description/>
+  <DescriptionUnresolved/>
+  <DisplayName/>
+  <DisplayNameUnresolved/>
+  <SchedulesEnabled>-1</SchedulesEnabled>
+  <LatestOutputLocation/>
+  <Name>HPC.CN</Name>
+  <OutputLocation></OutputLocation>
+  <RootPath>C:\HpcPerfRun\PerfLogs\HPC.CN</RootPath>
+  <Segment>0</Segment>
+  <SegmentMaxDuration>0</SegmentMaxDuration>
+  <SegmentMaxSize>0</SegmentMaxSize>
+  <SerialNumber>0</SerialNumber>
+  <Server/>
+  <Subdirectory/>
+  <SubdirectoryFormat>3</SubdirectoryFormat>
+  <SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
+  <Task/>
+  <TaskRunAsSelf>0</TaskRunAsSelf>
+  <TaskArguments/>
+  <TaskUserTextArguments/>
+  <UserAccount>SYSTEM</UserAccount>
+  <Security></Security>
+  <StopOnCompletion>0</StopOnCompletion>
+  <PerformanceCounterDataCollector>
+    <DataCollectorType>0</DataCollectorType>
+    <Name>DataCollector01</Name>
+    <FileName>HPC.CN</FileName>
+    <FileNameFormat>0</FileNameFormat>
+    <FileNameFormatPattern/>
+    <LogAppend>0</LogAppend>
+    <LogCircular>0</LogCircular>
+    <LogOverwrite>0</LogOverwrite>
+    <LatestOutputLocation/>
+    <DataSourceName/>
+    <SampleInterval>5</SampleInterval>
+    <SegmentMaxRecords>0</SegmentMaxRecords>
+    <LogFileFormat>3</LogFileFormat>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcManagement)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcMonitoringClient)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcNodeManager)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcSoaDiagMon)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcManagement)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcMonitoringClient)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcNodeManager)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcSoaDiagMon)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcManagement)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcMonitoringClient)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcNodeManager)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcSoaDiagMon)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="200">\HTTP Service Request Queues(*)\ArrivalRate</Counter>
+    <Counter MinValue="" MaxValue="">\HTTP Service Request Queues(*)\CacheHitRate</Counter>
+    <Counter MinValue="" MaxValue="800">\HTTP Service Request Queues(*)\CurrentQueueSize</Counter>
+    <Counter MinValue="" MaxValue="">\HTTP Service Request Queues(*)\MaxQueueItemAge</Counter>
+    <Counter MinValue="" MaxValue="0">\HTTP Service Request Queues(*)\RejectedRequests</Counter>
+    <Counter MinValue="" MaxValue="0">\HTTP Service Request Queues(*)\RejectionRate</Counter>
+    <Counter MinValue="" MaxValue="20">\Process(HpcManagement)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="20">\Process(HpcMonitoringClient)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="20">\Process(HpcNodeManager)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="20">\Process(HpcSoaDiagMon)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcManagement)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcMonitoringClient)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcNodeManager)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcSoaDiagMon)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcManagement)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcMonitoringClient)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcNodeManager)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcSoaDiagMon)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcManagement)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcMonitoringClient)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcNodeManager)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcSoaDiagMon)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcManagement)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcMonitoringClient)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcNodeManager)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcSoaDiagMon)\Working Set - Private</Counter>
+    <CounterDisplayName>\.NET CLR Memory(HpcManagement)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcMonitoringClient)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcNodeManager)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcSoaDiagMon)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcManagement)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcMonitoringClient)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcNodeManager)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcSoaDiagMon)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcManagement)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcMonitoringClient)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcNodeManager)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcSoaDiagMon)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\ArrivalRate</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\CacheHitRate</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\CurrentQueueSize</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\MaxQueueItemAge</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\RejectedRequests</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\RejectionRate</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcMonitoringClient)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcNodeManager)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSoaDiagMon)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcMonitoringClient)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcNodeManager)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSoaDiagMon)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcMonitoringClient)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcNodeManager)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSoaDiagMon)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcMonitoringClient)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcNodeManager)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSoaDiagMon)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcManagement)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcMonitoringClient)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcNodeManager)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcSoaDiagMon)\Working Set - Private</CounterDisplayName>
+  </PerformanceCounterDataCollector>
+  <DataManager>
+    <Enabled>0</Enabled>
+    <CheckBeforeRunning>0</CheckBeforeRunning>
+    <MinFreeDisk>0</MinFreeDisk>
+    <MaxSize>0</MaxSize>
+    <MaxFolderCount>0</MaxFolderCount>
+    <ResourcePolicy>0</ResourcePolicy>
+    <ReportFileName>report.html</ReportFileName>
+    <RuleTargetFileName>report.xml</RuleTargetFileName>
+    <EventsFileName/>
+  </DataManager>
+</DataCollectorSet>

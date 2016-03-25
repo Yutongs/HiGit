@@ -1,0 +1,200 @@
+<DataCollectorSet>
+  <Status>0</Status>
+  <Duration>0</Duration>
+  <Description/>
+  <DescriptionUnresolved/>
+  <DisplayName/>
+  <DisplayNameUnresolved/>
+  <SchedulesEnabled>-1</SchedulesEnabled>
+  <LatestOutputLocation/>
+  <Name>HPC.BN</Name>
+  <OutputLocation></OutputLocation>
+  <RootPath>C:\HpcPerfRun\PerfLogs\HPC.BN</RootPath>
+  <Segment>0</Segment>
+  <SegmentMaxDuration>0</SegmentMaxDuration>
+  <SegmentMaxSize>0</SegmentMaxSize>
+  <SerialNumber>0</SerialNumber>
+  <Server/>
+  <Subdirectory/>
+  <SubdirectoryFormat>3</SubdirectoryFormat>
+  <SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
+  <Task/>
+  <TaskRunAsSelf>0</TaskRunAsSelf>
+  <TaskArguments/>
+  <TaskUserTextArguments/>
+  <UserAccount>SYSTEM</UserAccount>
+  <Security></Security>
+  <StopOnCompletion>0</StopOnCompletion>
+  <PerformanceCounterDataCollector>
+    <DataCollectorType>0</DataCollectorType>
+    <Name>DataCollector01</Name>
+    <FileName>HPC.BN</FileName>
+    <FileNameFormat>0</FileNameFormat>
+    <FileNameFormatPattern/>
+    <LogAppend>0</LogAppend>
+    <LogCircular>0</LogCircular>
+    <LogOverwrite>0</LogOverwrite>
+    <LatestOutputLocation/>
+    <DataSourceName/>
+    <SampleInterval>5</SampleInterval>
+    <SegmentMaxRecords>0</SegmentMaxRecords>
+    <LogFileFormat>3</LogFileFormat>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcBroker)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcBrokerWorker)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcBrokerWorker#1)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\.NET CLR Memory(HpcBrokerWorker#2)\# Bytes in all Heaps</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcBroker)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcBrokerWorker)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcBrokerWorker#1)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5000">\.NET CLR Memory(HpcBrokerWorker#2)\# GC Handles</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcBroker)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcBrokerWorker)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcBrokerWorker#1)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="5">\.NET CLR Memory(HpcBrokerWorker#2)\% Time in GC</Counter>
+    <Counter MinValue="" MaxValue="50">\Process(HpcBroker)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="80">\Process(HpcBrokerWorker)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="80">\Process(HpcBrokerWorker#1)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="80">\Process(HpcBrokerWorker#2)\% Processor Time</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcBroker)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcBrokerWorker)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcBrokerWorker#1)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="5000">\Process(HpcBrokerWorker#2)\Handle Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBroker)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBrokerWorker)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBrokerWorker#1)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBrokerWorker#2)\Private Bytes</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcBroker)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcBrokerWorker)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcBrokerWorker#1)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="2000">\Process(HpcBrokerWorker#2)\Thread Count</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBroker)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBrokerWorker)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBrokerWorker#1)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="1073741824">\Process(HpcBrokerWorker#2)\Working Set - Private</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(*)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(*)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(*)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelService 4.0.0.0(*)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="90">\ServiceModelService 4.0.0.0(*)\Percent Of Max Concurrent Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Duration</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Outstanding</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Per Second</Counter>
+    <Counter MinValue="" MaxValue="">\HPC WCF Broker Node\Calculations/sec</Counter>
+    <Counter MinValue="" MaxValue="">\HPC WCF Broker Node\Durable Requests Queue Length</Counter>
+    <Counter MinValue="" MaxValue="">\HPC WCF Broker Node\Durable Responses Queue Length</Counter>
+    <Counter MinValue="" MaxValue="">\HPC WCF Broker Node\Faults/sec</Counter>
+    <Counter MinValue="" MaxValue="">\HPC WCF Broker Node\Requests/sec</Counter>
+    <Counter MinValue="" MaxValue="">\HPC WCF Broker Node\Responses/sec</Counter>
+    <Counter MinValue="" MaxValue="200">\HTTP Service Request Queues(*)\ArrivalRate</Counter>
+    <Counter MinValue="" MaxValue="">\HTTP Service Request Queues(*)\CacheHitRate</Counter>
+    <Counter MinValue="" MaxValue="800">\HTTP Service Request Queues(*)\CurrentQueueSize</Counter>
+    <Counter MinValue="" MaxValue="">\HTTP Service Request Queues(*)\MaxQueueItemAge</Counter>
+    <Counter MinValue="" MaxValue="0">\HTTP Service Request Queues(*)\RejectedRequests</Counter>
+    <Counter MinValue="" MaxValue="0">\HTTP Service Request Queues(*)\RejectionRate</Counter>
+    <CounterDisplayName>\.NET CLR Memory(HpcBroker)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker#1)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker#2)\# Bytes in all Heaps</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBroker)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker#1)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker#2)\# GC Handles</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBroker)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker#1)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\.NET CLR Memory(HpcBrokerWorker#2)\% Time in GC</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBroker)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#1)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#2)\% Processor Time</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBroker)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#1)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#2)\Handle Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBroker)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#1)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#2)\Private Bytes</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBroker)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#1)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#2)\Thread Count</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBroker)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#1)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\Process(HpcBrokerWorker#2)\Working Set - Private</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(*)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(*)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(*)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(*)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelService 4.0.0.0(*)\Percent Of Max Concurrent Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Duration</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Outstanding</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Attach@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.Create@NET.TCP:||HPC-4617537:9087|BROKERLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@77PC-4617537:9087|BROKERLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\ServiceModelOperation 4.0.0.0(Broke47.IBrok33.CreateDurable@HTTPS:||HPC-4617537|BROKERLAUNCHER)\Calls Per Second</CounterDisplayName>
+    <CounterDisplayName>\HPC WCF Broker Node\Calculations/sec</CounterDisplayName>
+    <CounterDisplayName>\HPC WCF Broker Node\Durable Requests Queue Length</CounterDisplayName>
+    <CounterDisplayName>\HPC WCF Broker Node\Durable Responses Queue Length</CounterDisplayName>
+    <CounterDisplayName>\HPC WCF Broker Node\Faults/sec</CounterDisplayName>
+    <CounterDisplayName>\HPC WCF Broker Node\Requests/sec</CounterDisplayName>
+    <CounterDisplayName>\HPC WCF Broker Node\Responses/sec</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\ArrivalRate</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\CacheHitRate</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\CurrentQueueSize</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\MaxQueueItemAge</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\RejectedRequests</CounterDisplayName>
+    <CounterDisplayName>\HTTP Service Request Queues(*)\RejectionRate</CounterDisplayName>
+  </PerformanceCounterDataCollector>
+  <DataManager>
+    <Enabled>0</Enabled>
+    <CheckBeforeRunning>0</CheckBeforeRunning>
+    <MinFreeDisk>0</MinFreeDisk>
+    <MaxSize>0</MaxSize>
+    <MaxFolderCount>0</MaxFolderCount>
+    <ResourcePolicy>0</ResourcePolicy>
+    <ReportFileName>report.html</ReportFileName>
+    <RuleTargetFileName>report.xml</RuleTargetFileName>
+    <EventsFileName/>
+  </DataManager>
+</DataCollectorSet>
